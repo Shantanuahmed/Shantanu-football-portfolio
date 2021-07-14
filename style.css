@@ -27,10 +27,10 @@ body{
 .login-page{
     margin-right: 124px;
     color: white;
-    margin-top:52px ;
+    margin-top:45px ;
    padding: 10px 30px;
-border-radius: 3px;
-   background-color: rgb(236, 155, 141);
+
+   background-color: rgb(218, 80, 156);
 }
 .login-page a{
     text-decoration: none;
@@ -40,6 +40,114 @@ border-radius: 3px;
 .login-page p{
    margin: 0%;
 }
+/* ------------------------nav end------------------------------------ --*/
 
+.top-banner{
+    display: flex;
 
+}
+.banner-detailes{
+    margin-left: 161px;
+    margin-top: 130px;
+    margin-bottom: 141px;
+    margin-right: 43px;
+}
+.banner-detailes h1{
+    font-size: 64px;
+    font-weight:900;
+    color: white;
+    margin: 0%;
+}
+.banner-detailes a{text-decoration: none;
+    color: white;
+    padding: 10px 23px;
+    background-color: rgb(218, 80, 156);
+    
+}
+
+.banner-width{
+    width: 50%;
+}
+
+.banner-img{
+    margin-top: 62px;
+    margin-right: 141px;
+    margin-bottom: 86px;
+    margin-left: 42px;
+}
+.banner-img img{
+    width:556px ;
+    height: 438px;
+}
+/*......................... header end .................................. */
 /* ........................header and navigation end.....................*/
+
+/* -----------------------player section start-------------------------- */
+.players{
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+ 
+   align-items: center;
+}
+
+.individul-player{
+    box-shadow: 0 0 20px rgb(209, 203, 203);
+    height: 484px;
+    width: 345px;
+}
+.individul-player img{
+    width: 308px;
+    height: 259px;
+  padding: 15px;
+}
+.individul-player h1, p{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-top: 0%;
+}
+/* -----------------------player section start-------------------------- */
+/* ----------------------highlight section start ----------------------- */
+.all-highlights{
+    margin-top: 165px;
+    margin-right: 152px;
+    margin-left: 180px;
+}
+.highlights{
+    display: flex;
+}
+.highlight{
+    margin-right: 66px;
+}
+.highlight-banner img{
+    width: 567px;
+    height: 427px;
+    
+}
+
+.highlight h1{
+font-size: 50px;
+font-weight: 900;
+margin-bottom: 20px;
+}
+
+.highlight p{
+    margin-left: 0%;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.highlight a{
+    text-decoration: none;
+    padding: 11px 40px;
+    background-color: rgba(243, 11, 42, 0.671);
+    color: white;
+}
+
+/* ----------------------highlight section end ----------------------- */
