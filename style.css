@@ -100,9 +100,10 @@ body{
     box-shadow: 0 0 20px rgb(209, 203, 203);
     height: 484px;
     width: 345px;
+    
 }
 .individul-player img{
-    width: 308px;
+    width: 316px;
     height: 259px;
   padding: 15px;
 }
@@ -116,8 +117,9 @@ body{
 /* ----------------------highlight section start ----------------------- */
 .all-highlights{
     margin-top: 165px;
-    margin-right: 152px;
+    margin-right: 159px;
     margin-left: 180px;
+    margin-bottom: 150px;
 }
 .highlights{
     display: flex;
@@ -151,3 +153,93 @@ margin-bottom: 20px;
 }
 
 /* ----------------------highlight section end ----------------------- */
+/* -----------------------fixture section start-----------------------  */
+.all-fixture{
+    margin-left: 215px;
+    margin-bottom: 150px;
+}
+.fixtures img{
+    height: 300px;
+    width: 1100px;
+    
+}
+.fixtures h2{
+   color:rgb(119, 235, 11);
+}
+
+.fixtures h2>a{
+    text-decoration: none;
+    padding: 15px 25px;
+    box-shadow: 0 0 40px rgb(47, 85, 255);
+    background-color: rgb(30, 61, 49);
+    border-radius: 40px;
+    color: white;
+    margin-left: 20px;
+}
+
+/* -----------------------fixture section end-----------------------  */
+/* -------------------------ticket section start---------------------- */
+.all-ticket{
+    margin-bottom: 150px;
+}
+.tickets{
+    display: flex;
+}
+
+.ticket img{
+    height: 400px;
+    width: 700px;
+    
+}
+.ticket-here img {
+    width: 650px;
+    height: 335px;
+    margin-top: 45px;
+    border-radius: 40px;
+    
+}
+
+
+
+.ticket h3{
+    margin-left: 160px;
+    margin-top: 0%;
+    color:rgb(119, 235, 11);
+}
+
+.ticket h3>a {
+    text-decoration: none;
+    padding: 15px 25px;
+    box-shadow: 0 0 40px rgb(47, 85, 255);
+    background-color: rgb(30, 61, 49);
+    border-radius: 40px;
+    color: white;
+    margin-left: 20px;
+}
+.ticket-here h3{
+    color: rgb(119, 235, 11);
+}
+/* -------------------------ticket section end---------------------- */
+
+/*----------------------- footers section start ---------------------------*/
+.footers{
+    text-align: center;
+}
+
+.footer-banner img{
+    width: 484px;
+    height: 110px;
+}
+
+.footer-icon{
+  font-size: 32px;
+
+}
+.fab{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*----------------------- footers section end ---------------------------*/
+
+/* -----------------------------Media query ----------------------------- */
