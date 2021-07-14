@@ -46,6 +46,10 @@ body{
 .top-banner{
     display: flex;
 
+    
+}
+.top-banner:hover>.banner-img> img{
+    transform: scale(1.10   );
 }
 .banner-detailes{
     margin-left: 161px;
@@ -79,6 +83,7 @@ body{
 .banner-img img{
     width:556px ;
     height: 438px;
+    transition: transform 2s linear;
 }
 /*......................... header end .................................. */
 /* ........................header and navigation end.....................*/
@@ -306,7 +311,8 @@ margin-bottom: 20px;
     footer{
         margin-left: 180px;
     }  
-        
+
+  
   }
 
 /* ------mobile devices end------- */
