@@ -317,3 +317,20 @@ margin-bottom: 20px;
 
 /* ------mobile devices end------- */
 /* -----------------------------Media query end----------------------------- */
+
+@media only screen and (min-width: 688px)and (max-width: 992px) {
+
+
+    .player {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tickets{
+        flex-direction: column;
+        margin-left: 180px;
+    }
+    .banner-width{
+        width: 100%;
+    }
+
+}
