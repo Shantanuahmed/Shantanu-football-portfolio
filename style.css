@@ -9,6 +9,7 @@ body{
 .header-background{
     background-color:rgb(94, 94, 194);
     height: 677px;
+    width: 1519px;
 }
 .links{
     display: flex;
@@ -242,4 +243,71 @@ margin-bottom: 20px;
 
 /*----------------------- footers section end ---------------------------*/
 
-/* -----------------------------Media query ----------------------------- */
+/* -----------------------------Media query start ----------------------------- */
+/* ------mobile devices start------- */
+
+@media only screen and (max-width: 688px) {
+   
+    .login-page{
+        margin-right: 320px;
+        
+    }
+    .top-banner{
+       flex-direction: column;
+       
+       
+    }
+    .header-background{
+        height: 100%;
+        
+    }
+    .banner-width{
+        width: 100%;
+    }
+    .banner-img{
+        margin-left: 161px;
+    }
+  
+    .player{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .highlights{
+        flex-direction: column;
+    }
+    .all-highlights{
+        margin-right: 0%;
+    }
+    .highlight{
+        margin-bottom: 30px;
+    }
+    
+    .all-fixture{
+        margin-left: 180px;
+    }
+    .fixtures h2>a{
+        padding: 0%;
+        box-shadow: 0 0 10px gray;
+    }
+    
+    .tickets{
+        flex-direction: column;
+    }
+    .ticket h3>a {
+        padding: 0%;
+        box-shadow: 0 0 10px gray;
+    }
+    
+    .ticket-here{
+        margin-left: 180px;
+    }
+        
+        
+    footer{
+        margin-left: 180px;
+    }  
+        
+  }
+
+/* ------mobile devices end------- */
+/* -----------------------------Media query end----------------------------- */
