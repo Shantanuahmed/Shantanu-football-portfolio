@@ -1,0 +1,45 @@
+/* ----------------------------common styles-------------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+/* ----------------------------common styles-------------------------- */
+/* ........................header and navigation start.....................*/
+.header-background{
+    background-color:rgb(94, 94, 194);
+    height: 677px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    margin-left: 156px;
+    margin-top: 52px;
+}
+.link a{
+    text-decoration: none;
+    margin-right: 36px;
+    color: white;
+
+}
+.login-page{
+    margin-right: 124px;
+    color: white;
+    margin-top:52px ;
+   padding: 10px 30px;
+border-radius: 3px;
+   background-color: rgb(236, 155, 141);
+}
+.login-page a{
+    text-decoration: none;
+    color: white;
+   
+}
+.login-page p{
+   margin: 0%;
+}
+
+
+/* ........................header and navigation end.....................*/
